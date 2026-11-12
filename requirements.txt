@@ -1,0 +1,8 @@
+# Web server
+fastapi==0.140.12
+uvicorn[standard]
+openai==2.16.0
+pydantic==2.12.5
+pycountry==26.2.16
+browser-use==0.13.6
+
