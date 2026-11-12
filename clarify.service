@@ -1,0 +1,16 @@
+[Unit]
+Description=Cancer risk intake web interface (FastAPI)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=clarify
+Group=clarify
+WorkingDirectory=/opt/clarify
+EnvironmentFile=/opt/clarify/.env
+ExecStart=/opt/clarify/venv/bin/uvicorn web_backend:app --host 127.0.0.1 --port 8000 --workers 1 --proxy-headers
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

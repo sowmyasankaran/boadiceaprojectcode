@@ -1,0 +1,8 @@
+
+YOUR-IP-WITH-DASHES.sslip.io {
+	reverse_proxy 127.0.0.1:8000 {
+		transport http {
+			read_timeout 5m
+		}
+	}
+}
