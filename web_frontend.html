@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cancer Risk Intake</title>
+<style>
+  :root {
+    --bg: #f7f5f2;
+    --panel: #ffffff;
+    --ink: #23201c;
+    --muted: #7a7369;
+    --accent: #6b4f9e;
+    --accent-ink: #ffffff;
+    --agent-bubble: #efeae3;
+    --border: #e4ded4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+    max-width: 720px;
+    padding: 20px 16px 8px;
+  }
+  header h1 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 2px;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .notice {
+    margin-top: 8px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--panel);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  #chat {
+    width: 100%;
+    max-width: 720px;
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .bubble {
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 16px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+  }
+  .agent {
+    align-self: flex-start;
+    background: var(--agent-bubble);
+    border-bottom-left-radius: 4px;
+  }
+  .user {
+    align-self: flex-end;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-bottom-right-radius: 4px;
+  }
+  .status {
+    align-self: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  .error {
+    align-self: center;
+    color: #a33;
+    font-size: 0.85rem;
+    background: #fbeaea;
+    border: 1px solid #e5b8b8;
+    padding: 8px 14px;
+    border-radius: 10px;
+  }
+  #inputbar {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px 20px;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+  }
+  #inputbar input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    font-size: 1rem;
+    outline: none;
+  }
+  #inputbar input:focus { border-color: var(--accent); }
+  #inputbar button {
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  #inputbar button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  #restart {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Cancer Risk Intake</h1>
+  <p>Tell me about your health, lifestyle, and family history in your own words.
+     I'll read each part back to you before moving on. <button id="restart">restart</button></p>
+  <div class="notice">
+    Research demo. Please don't enter real personal or family health information;
+    use a made-up or study-provided scenario instead. Results are not medical advice.
+  </div>
+</header>
+
+<div id="chat"></div>
+
+<div id="inputbar">
+  <input id="msg" type="text" placeholder="Type your reply..." autocomplete="off" disabled>
+  <button id="send" disabled>Send</button>
+</div>
+
+<script>
+// Empty string = same server that served this page (web_backend.py serves
+// it at "/"). Only set a full URL if the frontend is hosted separately from
+// the backend -- and then add that origin to ALLOWED_ORIGINS on the server.
+const API_BASE = "";
+
+// For Exp3: open the page as
+// https://<your-server>/?participant=P04&vignette=exp1_v12
+// so the resulting session log (see web_backend.py's LOG_DIR) is
+// identifiable. Both are optional -- omitted for casual testing outside a
+// real study session, in which case the log just has no participant/
+// vignette tag.
+const urlParams = new URLSearchParams(window.location.search);
+const PARTICIPANT_ID = urlParams.get("participant") || null;
+const VIGNETTE_ID = urlParams.get("vignette") || null;
+
+const chatEl = document.getElementById("chat");
+const inputEl = document.getElementById("msg");
+const sendEl = document.getElementById("send");
+const restartEl = document.getElementById("restart");
+
+let sessionId = null;
+let done = false;
+
+// Access code (only used if the server has ACCESS_CODE set). Remembered for
+// this browser tab so a restart doesn't ask again.
+let accessCode = "";
+try { accessCode = sessionStorage.getItem("accessCode") || ""; } catch (e) {}
+
+function saveAccessCode(code) {
+  accessCode = code;
+  try { sessionStorage.setItem("accessCode", code); } catch (e) {}
+}
+
+// POST JSON to the backend; if the server asks for an access code, prompt
+// for it once and retry.
+async function apiPost(path, body) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const res = await fetch(`${API_BASE}${path}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Access-Code": accessCode },
+      body: JSON.stringify(body),
+    });
+    if (res.status !== 401) return res;
+    const code = window.prompt(
+      attempt === 0 ? "Enter the access code to start:" : "That code didn't work. Try again:"
+    );
+    if (code === null) break;
+    saveAccessCode(code.trim());
+  }
+  throw new Error("An access code is required to use this demo.");
+}
+
+async function errorDetail(res) {
+  const body = await res.json().catch(() => ({}));
+  return body.detail || `Server responded ${res.status}`;
+}
+
+function addBubble(text, cls) {
+  const div = document.createElement("div");
+  div.className = "bubble " + cls;
+  div.textContent = text;
+  chatEl.appendChild(div);
+  chatEl.scrollTop = chatEl.scrollHeight;
+  return div;
+}
+
+function addStatus(text) {
+  const div = document.createElement("div");
+  div.className = "status";
+  div.textContent = text;
+  chatEl.appendChild(div);
+  chatEl.scrollTop = chatEl.scrollHeight;
+  return div;
+}
+
+function addError(text) {
+  const div = document.createElement("div");
+  div.className = "error";
+  div.textContent = text;
+  chatEl.appendChild(div);
+  chatEl.scrollTop = chatEl.scrollHeight;
+}
+
+function setInputEnabled(enabled) {
+  inputEl.disabled = !enabled;
+  sendEl.disabled = !enabled;
+  if (enabled) inputEl.focus();
+}
+
+async function startSession() {
+  chatEl.innerHTML = "";
+  done = false;
+  setInputEnabled(false);
+  const thinking = addStatus("Connecting...");
+  try {
+    const res = await apiPost("/session", {
+      participant_id: PARTICIPANT_ID,
+      vignette_id: VIGNETTE_ID,
+    });
+    if (!res.ok) throw new Error(await errorDetail(res));
+    const data = await res.json();
+    thinking.remove();
+    sessionId = data.session_id;
+    addBubble(stripAgentPrefix(data.agent_message), "agent");
+    done = data.done;
+    setInputEnabled(!done);
+    if (done) addStatus("Conversation finished.");
+  } catch (err) {
+    thinking.remove();
+    addError("Couldn't start a conversation: " + err.message);
+  }
+}
+
+// The pipeline's print() calls already prefix agent turns with "Agent: " --
+// that's a CLI convention (distinguishing speaker in a shared terminal
+// transcript), redundant once each turn is its own chat bubble on its own
+// side of the conversation. Stripped here for display only; nothing about
+// the actual transcript sent to the backend changes.
+function stripAgentPrefix(text) {
+  return text.split("\n").map(line => line.replace(/^Agent:\s?/, "")).join("\n");
+}
+
+async function sendMessage() {
+  const text = inputEl.value.trim();
+  if (!text || done) return;
+  addBubble(text, "user");
+  inputEl.value = "";
+  setInputEnabled(false);
+  const thinking = addStatus("...");
+  try {
+    const res = await apiPost("/message", { session_id: sessionId, message: text });
+    thinking.remove();
+    if (!res.ok) throw new Error(await errorDetail(res));
+    const data = await res.json();
+    addBubble(stripAgentPrefix(data.agent_message), "agent");
+    done = data.done;
+    setInputEnabled(!done);
+    if (done) addStatus("Conversation finished.");
+  } catch (err) {
+    thinking.remove();
+    addError("Something went wrong: " + err.message);
+    setInputEnabled(true);
+  }
+}
+
+sendEl.addEventListener("click", sendMessage);
+inputEl.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") sendMessage();
+});
+restartEl.addEventListener("click", startSession);
+
+startSession();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,568 @@
+field_concordance,group,model_label,section_complete,vignette_id
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var00
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca1_young_breast__var00
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca1_young_breast__var00
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca1_young_breast__var00
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca1_young_breast__var00
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca1_young_breast__var00
+,llm_only_prediction,openai/gpt-4o,,seed_brca1_young_breast__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var00
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var00
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var00
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var00
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var00
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var00
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var00
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca1_young_breast__var00
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca1_young_breast__var00
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca1_young_breast__var00
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca1_young_breast__var00
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca1_young_breast__var00
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca1_young_breast__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var01
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca1_young_breast__var01
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca1_young_breast__var01
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca1_young_breast__var01
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca1_young_breast__var01
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca1_young_breast__var01
+,llm_only_prediction,openai/gpt-4o,,seed_brca1_young_breast__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var01
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var01
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,False,seed_brca1_young_breast__var01
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var01
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var01
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var01
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var01
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca1_young_breast__var01
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca1_young_breast__var01
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca1_young_breast__var01
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca1_young_breast__var01
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca1_young_breast__var01
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca1_young_breast__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var02
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca1_young_breast__var02
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca1_young_breast__var02
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca1_young_breast__var02
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca1_young_breast__var02
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca1_young_breast__var02
+,llm_only_prediction,openai/gpt-4o,,seed_brca1_young_breast__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var02
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var02
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var02
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca1_young_breast__var02
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var02
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var02
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca1_young_breast__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca1_young_breast__var02
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca1_young_breast__var02
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca1_young_breast__var02
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca1_young_breast__var02
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca1_young_breast__var02
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca1_young_breast__var02
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca1_young_breast__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var00
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var00
+,baseline_minimal_instruction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var00
+,offshelf_agent_baseline,openai/gpt-4o,,seed_hboc_ovarian_sibship__var00
+,llm_only_prediction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var00
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,False,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,False,seed_hboc_ovarian_sibship__var00
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var00
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var00
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var00
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var00
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var00
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var00
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var00
+,llm_only_prediction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var01
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var01
+,baseline_minimal_instruction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var01
+,offshelf_agent_baseline,openai/gpt-4o,,seed_hboc_ovarian_sibship__var01
+,llm_only_prediction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var01
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,False,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_hboc_ovarian_sibship__var01
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var01
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var01
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var01
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var01
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var01
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var01
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var01
+,llm_only_prediction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var02
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var02
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var02
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_hboc_ovarian_sibship__var02
+,baseline_minimal_instruction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var02
+,offshelf_agent_baseline,openai/gpt-4o,,seed_hboc_ovarian_sibship__var02
+,llm_only_prediction,openai/gpt-4o,,seed_hboc_ovarian_sibship__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var02
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_hboc_ovarian_sibship__var02
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,False,seed_hboc_ovarian_sibship__var02
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_hboc_ovarian_sibship__var02
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var02
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var02
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_hboc_ovarian_sibship__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_hboc_ovarian_sibship__var02
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var02
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var02
+0.8,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_hboc_ovarian_sibship__var02
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var02
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var02
+,llm_only_prediction,google/gemini-2.5-pro,,seed_hboc_ovarian_sibship__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var00
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca2_archetype__var00
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca2_archetype__var00
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca2_archetype__var00
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca2_archetype__var00
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca2_archetype__var00
+,llm_only_prediction,openai/gpt-4o,,seed_brca2_archetype__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var00
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var00
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var00
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var00
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var00
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var00
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var00
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca2_archetype__var00
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca2_archetype__var00
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca2_archetype__var00
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca2_archetype__var00
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca2_archetype__var00
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca2_archetype__var00
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var01
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca2_archetype__var01
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca2_archetype__var01
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca2_archetype__var01
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca2_archetype__var01
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca2_archetype__var01
+,llm_only_prediction,openai/gpt-4o,,seed_brca2_archetype__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var01
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var01
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var01
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var01
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var01
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var01
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var01
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca2_archetype__var01
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca2_archetype__var01
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca2_archetype__var01
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca2_archetype__var01
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca2_archetype__var01
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca2_archetype__var01
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var02
+1.0,unstructured_profile_input,openai/gpt-4o,True,seed_brca2_archetype__var02
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,seed_brca2_archetype__var02
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,seed_brca2_archetype__var02
+,baseline_minimal_instruction,openai/gpt-4o,,seed_brca2_archetype__var02
+,offshelf_agent_baseline,openai/gpt-4o,,seed_brca2_archetype__var02
+,llm_only_prediction,openai/gpt-4o,,seed_brca2_archetype__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var02
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var02
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var02
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,seed_brca2_archetype__var02
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var02
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var02
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,seed_brca2_archetype__var02
+1.0,structured_profile_input,n/a (no LLM),True,seed_brca2_archetype__var02
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,seed_brca2_archetype__var02
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,seed_brca2_archetype__var02
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,seed_brca2_archetype__var02
+,baseline_minimal_instruction,google/gemini-2.5-pro,,seed_brca2_archetype__var02
+,offshelf_agent_baseline,google/gemini-2.5-pro,,seed_brca2_archetype__var02
+,llm_only_prediction,google/gemini-2.5-pro,,seed_brca2_archetype__var02
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_000
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_normal_000
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_normal_000
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_normal_000
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_normal_000
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_normal_000
+,llm_only_prediction,openai/gpt-4o,,gen_easy_normal_000
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_000
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_normal_000
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_normal_000
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_normal_000
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_normal_000
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_normal_000
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_normal_000
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_000
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_normal_000
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_normal_000
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_normal_000
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_normal_000
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_normal_000
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_normal_000
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_001
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_normal_001
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_normal_001
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_normal_001
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_normal_001
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_normal_001
+,llm_only_prediction,openai/gpt-4o,,gen_easy_normal_001
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_001
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_normal_001
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_normal_001
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_normal_001
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_normal_001
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_normal_001
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_normal_001
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_normal_001
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_normal_001
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_normal_001
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_normal_001
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_normal_001
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_normal_001
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_normal_001
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_002
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_medium_002
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_medium_002
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_medium_002
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_medium_002
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_medium_002
+,llm_only_prediction,openai/gpt-4o,,gen_easy_medium_002
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_002
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_medium_002
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_medium_002
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_medium_002
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_medium_002
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_medium_002
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_medium_002
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_002
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_medium_002
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_medium_002
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_medium_002
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_medium_002
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_medium_002
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_medium_002
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_003
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_medium_003
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_medium_003
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_medium_003
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_medium_003
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_medium_003
+,llm_only_prediction,openai/gpt-4o,,gen_easy_medium_003
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_003
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_medium_003
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_medium_003
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_medium_003
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_medium_003
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_medium_003
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_medium_003
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_medium_003
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_medium_003
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_medium_003
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_medium_003
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_medium_003
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_medium_003
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_medium_003
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_004
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_extreme_004
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_extreme_004
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_extreme_004
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_extreme_004
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_extreme_004
+,llm_only_prediction,openai/gpt-4o,,gen_easy_extreme_004
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_004
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_004
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_004
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_004
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_extreme_004
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_extreme_004
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_extreme_004
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_004
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_extreme_004
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_extreme_004
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_extreme_004
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_extreme_004
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_extreme_004
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_extreme_004
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_005
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_easy_extreme_005
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_easy_extreme_005
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_easy_extreme_005
+,baseline_minimal_instruction,openai/gpt-4o,,gen_easy_extreme_005
+,offshelf_agent_baseline,openai/gpt-4o,,gen_easy_extreme_005
+,llm_only_prediction,openai/gpt-4o,,gen_easy_extreme_005
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_005
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_005
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_005
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_easy_extreme_005
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_easy_extreme_005
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_easy_extreme_005
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_easy_extreme_005
+1.0,structured_profile_input,n/a (no LLM),True,gen_easy_extreme_005
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_easy_extreme_005
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_easy_extreme_005
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_easy_extreme_005
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_easy_extreme_005
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_easy_extreme_005
+,llm_only_prediction,google/gemini-2.5-pro,,gen_easy_extreme_005
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_006
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_normal_006
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_normal_006
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_normal_006
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_normal_006
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_normal_006
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_normal_006
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_006
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_006
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_006
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_006
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_normal_006
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_normal_006
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_normal_006
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_006
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_normal_006
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_normal_006
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_normal_006
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_normal_006
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_normal_006
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_normal_006
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_007
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_normal_007
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_normal_007
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_normal_007
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_normal_007
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_normal_007
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_normal_007
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_007
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_007
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_007
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_normal_007
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_normal_007
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_normal_007
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_normal_007
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_normal_007
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_normal_007
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_normal_007
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_normal_007
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_normal_007
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_normal_007
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_normal_007
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_008
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_medium_008
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_medium_008
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_medium_008
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_medium_008
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_medium_008
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_medium_008
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_008
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_008
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_008
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_008
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_medium_008
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_medium_008
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_medium_008
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_008
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_medium_008
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_medium_008
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_medium_008
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_medium_008
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_medium_008
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_medium_008
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_009
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_medium_009
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_medium_009
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_medium_009
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_medium_009
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_medium_009
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_medium_009
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_009
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_009
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_009
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_medium_009
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_medium_009
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_medium_009
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_medium_009
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_medium_009
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_medium_009
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_medium_009
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_medium_009
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_medium_009
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_medium_009
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_medium_009
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_010
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_extreme_010
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_extreme_010
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_extreme_010
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_extreme_010
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_extreme_010
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_extreme_010
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_010
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_010
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_010
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_010
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_010
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_010
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_010
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_010
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_extreme_010
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_extreme_010
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_extreme_010
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_extreme_010
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_extreme_010
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_extreme_010
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_011
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_moderate_extreme_011
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_moderate_extreme_011
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_moderate_extreme_011
+,baseline_minimal_instruction,openai/gpt-4o,,gen_moderate_extreme_011
+,offshelf_agent_baseline,openai/gpt-4o,,gen_moderate_extreme_011
+,llm_only_prediction,openai/gpt-4o,,gen_moderate_extreme_011
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_011
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_011
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_011
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_moderate_extreme_011
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_011
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_011
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_moderate_extreme_011
+1.0,structured_profile_input,n/a (no LLM),True,gen_moderate_extreme_011
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_moderate_extreme_011
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_moderate_extreme_011
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_moderate_extreme_011
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_moderate_extreme_011
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_moderate_extreme_011
+,llm_only_prediction,google/gemini-2.5-pro,,gen_moderate_extreme_011
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_012
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_normal_012
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_normal_012
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_normal_012
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_normal_012
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_normal_012
+,llm_only_prediction,openai/gpt-4o,,gen_hard_normal_012
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_012
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_normal_012
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_normal_012
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_hard_normal_012
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_normal_012
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_normal_012
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_normal_012
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_012
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_normal_012
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_normal_012
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_normal_012
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_normal_012
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_normal_012
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_normal_012
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_013
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_normal_013
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_normal_013
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_normal_013
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_normal_013
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_normal_013
+,llm_only_prediction,openai/gpt-4o,,gen_hard_normal_013
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_013
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_normal_013
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_normal_013
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_hard_normal_013
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_normal_013
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_normal_013
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_normal_013
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_normal_013
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_normal_013
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_normal_013
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_normal_013
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_normal_013
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_normal_013
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_normal_013
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_014
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_medium_014
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_medium_014
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_medium_014
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_medium_014
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_medium_014
+,llm_only_prediction,openai/gpt-4o,,gen_hard_medium_014
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_014
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_medium_014
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_medium_014
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_hard_medium_014
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_medium_014
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_medium_014
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_medium_014
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_014
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_medium_014
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_medium_014
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_medium_014
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_medium_014
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_medium_014
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_medium_014
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_015
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_medium_015
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_medium_015
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_medium_015
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_medium_015
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_medium_015
+,llm_only_prediction,openai/gpt-4o,,gen_hard_medium_015
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_015
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_medium_015
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_medium_015
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,False,gen_hard_medium_015
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_medium_015
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_medium_015
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_medium_015
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_medium_015
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_medium_015
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_medium_015
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_medium_015
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_medium_015
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_medium_015
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_medium_015
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_016
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_extreme_016
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_extreme_016
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_extreme_016
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_extreme_016
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_extreme_016
+,llm_only_prediction,openai/gpt-4o,,gen_hard_extreme_016
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_016
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_016
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_016
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_016
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_extreme_016
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_extreme_016
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_extreme_016
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_016
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_extreme_016
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_extreme_016
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_extreme_016
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_extreme_016
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_extreme_016
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_extreme_016
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_017
+1.0,unstructured_profile_input,openai/gpt-4o,True,gen_hard_extreme_017
+1.0,backend_api_strict_tool_determination,openai/gpt-4o,True,gen_hard_extreme_017
+1.0,backend_api_broad_prompting,openai/gpt-4o,True,gen_hard_extreme_017
+,baseline_minimal_instruction,openai/gpt-4o,,gen_hard_extreme_017
+,offshelf_agent_baseline,openai/gpt-4o,,gen_hard_extreme_017
+,llm_only_prediction,openai/gpt-4o,,gen_hard_extreme_017
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_017
+1.0,unstructured_profile_input,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_017
+1.0,backend_api_strict_tool_determination,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_017
+1.0,backend_api_broad_prompting,anthropic/claude-sonnet-4.5,True,gen_hard_extreme_017
+,baseline_minimal_instruction,anthropic/claude-sonnet-4.5,,gen_hard_extreme_017
+,offshelf_agent_baseline,anthropic/claude-sonnet-4.5,,gen_hard_extreme_017
+,llm_only_prediction,anthropic/claude-sonnet-4.5,,gen_hard_extreme_017
+1.0,structured_profile_input,n/a (no LLM),True,gen_hard_extreme_017
+1.0,unstructured_profile_input,google/gemini-2.5-pro,True,gen_hard_extreme_017
+1.0,backend_api_strict_tool_determination,google/gemini-2.5-pro,True,gen_hard_extreme_017
+1.0,backend_api_broad_prompting,google/gemini-2.5-pro,True,gen_hard_extreme_017
+,baseline_minimal_instruction,google/gemini-2.5-pro,,gen_hard_extreme_017
+,offshelf_agent_baseline,google/gemini-2.5-pro,,gen_hard_extreme_017
+,llm_only_prediction,google/gemini-2.5-pro,,gen_hard_extreme_017

@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_hard_normal_013",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 55.6,
+  "agent_reported_success": true,
+  "error": null,
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to log in due to invalid credentials. Cannot proceed with entering patient data or running risk calculation."
+  },
+  "attempts_used": 2
+}

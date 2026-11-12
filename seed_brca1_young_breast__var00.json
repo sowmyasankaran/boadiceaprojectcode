@@ -1,0 +1,19 @@
+{
+  "vignette_id": "seed_brca1_young_breast__var00",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 367.8,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool demo access or alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+demo+access+or+alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"CanRisk support contact information\": Navigation to https://duckduckgo.com/?q=CanRisk+support+contact+information blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access forum discussion\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+forum+discussion blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to register on CanRisk due to existing username errors. Alternative access methods were blocked by security policy restrictions. The CanRisk homepage appears empty, indicating a potential loading issue."
+  },
+  "attempts_used": 2
+}

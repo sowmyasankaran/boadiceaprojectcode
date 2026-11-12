@@ -1,0 +1,44 @@
+{
+  "clean": {
+    "n": 27,
+    "false_positive_rate_with_verification": 0.0
+  },
+  "implausible_value": {
+    "n": 27,
+    "sensitivity_with_verification": 1.0,
+    "field_and_severity_match_rate": 1.0,
+    "silent_submit_rate_without_verification": 1.0
+  },
+  "impossible_ordering": {
+    "n": 27,
+    "sensitivity_with_verification": 1.0,
+    "field_and_severity_match_rate": 1.0,
+    "silent_submit_rate_without_verification": 1.0
+  },
+  "impossible_timeline": {
+    "n": 27,
+    "sensitivity_with_verification": 1.0,
+    "field_and_severity_match_rate": 1.0,
+    "silent_submit_rate_without_verification": 1.0
+  },
+  "silent_degradation": {
+    "n": 27,
+    "sensitivity_with_verification": 1.0,
+    "field_and_severity_match_rate": 1.0,
+    "silent_submit_rate_without_verification": 1.0
+  },
+  "unit_mixup": {
+    "n": 27,
+    "sensitivity_with_verification": 1.0,
+    "field_and_severity_match_rate": 1.0,
+    "silent_submit_rate_without_verification": 1.0
+  },
+  "order_error_gap": {
+    "n_checked": 0,
+    "always_undetectable_rate": null
+  },
+  "fidelity_error_check": {
+    "n_checked": 0,
+    "caught_rate": null
+  }
+}

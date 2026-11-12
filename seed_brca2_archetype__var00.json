@@ -1,0 +1,19 @@
+{
+  "vignette_id": "seed_brca2_archetype__var00",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 300.0,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool guest access or demo\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+guest+access+or+demo blocked by security policy; Failed to search duckduckgo for \"CanRisk tool guest access or demo\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+guest+access+or+demo blocked by security policy; Failed to search duckduckgo for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to access CanRisk tool due to repeated registration failures and security policy restrictions blocking alternative search attempts. No risk assessment could be performed."
+  },
+  "attempts_used": 2
+}

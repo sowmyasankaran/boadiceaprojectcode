@@ -1,0 +1,126 @@
+{
+  "structured_profile_input": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 21,
+    "submission_success_rate": 0.7777777777777778,
+    "field_level_concordance": 1.0,
+    "mean_absolute_difference_lifetime_risk": 0.30952380952380953,
+    "bland_altman": {
+      "mean_diff": 0.2619047619047619,
+      "sd_diff": 0.682764820749806,
+      "loa_lower": -1.0763142867648579,
+      "loa_upper": 1.6001238105743816,
+      "n": 21
+    },
+    "nice_risk_category_match_rate": 1.0,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 77.78
+    }
+  },
+  "unstructured_profile_input": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 21,
+    "submission_success_rate": 0.7777777777777778,
+    "field_level_concordance": 1.0,
+    "mean_absolute_difference_lifetime_risk": 0.30952380952380953,
+    "bland_altman": {
+      "mean_diff": 0.2619047619047619,
+      "sd_diff": 0.682764820749806,
+      "loa_lower": -1.0763142867648579,
+      "loa_upper": 1.6001238105743816,
+      "n": 21
+    },
+    "nice_risk_category_match_rate": 1.0,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 77.78
+    }
+  },
+  "backend_api_strict_tool_determination": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 21,
+    "submission_success_rate": 0.7777777777777778,
+    "field_level_concordance": 1.0,
+    "mean_absolute_difference_lifetime_risk": 0.3333333333333334,
+    "bland_altman": {
+      "mean_diff": -0.05714285714285753,
+      "sd_diff": 0.7088363560031588,
+      "loa_lower": -1.4464621149090486,
+      "loa_upper": 1.3321764006233334,
+      "n": 21
+    },
+    "nice_risk_category_match_rate": 1.0,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 77.78
+    }
+  },
+  "backend_api_broad_prompting": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 21,
+    "submission_success_rate": 0.7777777777777778,
+    "field_level_concordance": 1.0,
+    "mean_absolute_difference_lifetime_risk": 0.24761904761904777,
+    "bland_altman": {
+      "mean_diff": -0.11428571428571456,
+      "sd_diff": 0.6371706165210566,
+      "loa_lower": -1.3631401226669855,
+      "loa_upper": 1.1345686940955564,
+      "n": 21
+    },
+    "nice_risk_category_match_rate": 1.0,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 77.78
+    }
+  },
+  "baseline_minimal_instruction": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 0,
+    "submission_success_rate": 0.0,
+    "field_level_concordance": null,
+    "mean_absolute_difference_lifetime_risk": null,
+    "bland_altman": {
+      "mean_diff": null,
+      "sd_diff": null,
+      "loa_lower": null,
+      "loa_upper": null,
+      "n": 0
+    },
+    "nice_risk_category_match_rate": null,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 0.0
+    }
+  },
+  "offshelf_agent_baseline": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 0,
+    "submission_success_rate": 0.0,
+    "field_level_concordance": null,
+    "mean_absolute_difference_lifetime_risk": null,
+    "bland_altman": {
+      "mean_diff": null,
+      "sd_diff": null,
+      "loa_lower": null,
+      "loa_upper": null,
+      "n": 0
+    },
+    "nice_risk_category_match_rate": null,
+    "vs_offshelf_baseline": "reference (this IS the baseline)"
+  },
+  "llm_only_prediction": {
+    "n_profiles": 27,
+    "n_submitted_and_matched_to_gold": 0,
+    "submission_success_rate": 0.0,
+    "field_level_concordance": null,
+    "mean_absolute_difference_lifetime_risk": null,
+    "bland_altman": {
+      "mean_diff": null,
+      "sd_diff": null,
+      "loa_lower": null,
+      "loa_upper": null,
+      "n": 0
+    },
+    "nice_risk_category_match_rate": null,
+    "vs_offshelf_baseline": {
+      "submission_success_rate_delta_pp": 0.0
+    }
+  }
+}

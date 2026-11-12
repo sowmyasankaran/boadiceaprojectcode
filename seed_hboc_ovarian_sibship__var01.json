@@ -1,0 +1,19 @@
+{
+  "vignette_id": "seed_hboc_ovarian_sibship__var01",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 246.6,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk public access or alternative tools for cancer risk assessment\": Navigation to https://duckduckgo.com/?q=CanRisk+public+access+or+alternative+tools+for+cancer+risk+assessment blocked by security policy; Failed to search duckduckgo for \"CanRisk public access or alternative tools for cancer risk assessment\": Navigation to https://duckduckgo.com/?q=CanRisk+public+access+or+alternative+tools+for+cancer+risk+assessment blocked by security policy; Failed to search duckduckgo for \"CanRisk public access or alternative tools for cancer risk assessment\": Navigation to https://duckduckgo.com/?q=CanRisk+public+access+or+alternative+tools+for+cancer+risk+assessment blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Navigation failed: Navigation to https://www.cancer.org/healthy/find-cancer-early/cancer-risk-assessment.html blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to complete registration on CanRisk due to CAPTCHA issues. Attempts to find alternative tools were blocked by security policies."
+  },
+  "attempts_used": 2
+}

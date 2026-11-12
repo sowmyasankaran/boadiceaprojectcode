@@ -1,0 +1,325 @@
+case_id,caught,expected_field,expected_flag,expected_severity,false_positive,kind,raised_fields,raised_severities,severity_matched,with_verification,would_submit
+seed_brca1_young_breast__var00__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var00__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca1_young_breast__var00__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+seed_brca1_young_breast__var00__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca1_young_breast__var00__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var00__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca1_young_breast__var00__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca1_young_breast__var00__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca1_young_breast__var00__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca1_young_breast__var00__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca1_young_breast__var00__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca1_young_breast__var00__clean,False,,False,,,clean,,,,False,True
+seed_brca1_young_breast__var01__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var01__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca1_young_breast__var01__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+seed_brca1_young_breast__var01__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca1_young_breast__var01__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var01__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca1_young_breast__var01__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca1_young_breast__var01__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca1_young_breast__var01__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca1_young_breast__var01__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca1_young_breast__var01__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca1_young_breast__var01__clean,False,,False,,,clean,,,,False,True
+seed_brca1_young_breast__var02__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var02__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca1_young_breast__var02__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+seed_brca1_young_breast__var02__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca1_young_breast__var02__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca1_young_breast__var02__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca1_young_breast__var02__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca1_young_breast__var02__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca1_young_breast__var02__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca1_young_breast__var02__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca1_young_breast__var02__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca1_young_breast__var02__clean,False,,False,,,clean,,,,False,True
+seed_hboc_ovarian_sibship__var00__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var00__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_hboc_ovarian_sibship__var00__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var00__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_hboc_ovarian_sibship__var00__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var00__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_hboc_ovarian_sibship__var00__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var00__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_hboc_ovarian_sibship__var00__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var00__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_hboc_ovarian_sibship__var00__clean,True,,False,,False,clean,[],{},,True,True
+seed_hboc_ovarian_sibship__var00__clean,False,,False,,,clean,,,,False,True
+seed_hboc_ovarian_sibship__var01__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var01__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_hboc_ovarian_sibship__var01__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var01__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_hboc_ovarian_sibship__var01__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var01__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_hboc_ovarian_sibship__var01__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var01__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_hboc_ovarian_sibship__var01__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var01__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_hboc_ovarian_sibship__var01__clean,True,,False,,False,clean,[],{},,True,True
+seed_hboc_ovarian_sibship__var01__clean,False,,False,,,clean,,,,False,True
+seed_hboc_ovarian_sibship__var02__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var02__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_hboc_ovarian_sibship__var02__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var02__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_hboc_ovarian_sibship__var02__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var02__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_hboc_ovarian_sibship__var02__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_hboc_ovarian_sibship__var02__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_hboc_ovarian_sibship__var02__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_hboc_ovarian_sibship__var02__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_hboc_ovarian_sibship__var02__clean,True,,False,,False,clean,[],{},,True,True
+seed_hboc_ovarian_sibship__var02__clean,False,,False,,,clean,,,,False,True
+seed_brca2_archetype__var00__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var00__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca2_archetype__var00__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+seed_brca2_archetype__var00__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca2_archetype__var00__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var00__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca2_archetype__var00__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca2_archetype__var00__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca2_archetype__var00__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca2_archetype__var00__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca2_archetype__var00__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca2_archetype__var00__clean,False,,False,,,clean,,,,False,True
+seed_brca2_archetype__var01__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var01__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca2_archetype__var01__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+seed_brca2_archetype__var01__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca2_archetype__var01__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var01__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca2_archetype__var01__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca2_archetype__var01__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca2_archetype__var01__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca2_archetype__var01__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca2_archetype__var01__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca2_archetype__var01__clean,False,,False,,,clean,,,,False,True
+seed_brca2_archetype__var02__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var02__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+seed_brca2_archetype__var02__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+seed_brca2_archetype__var02__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+seed_brca2_archetype__var02__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+seed_brca2_archetype__var02__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+seed_brca2_archetype__var02__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+seed_brca2_archetype__var02__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+seed_brca2_archetype__var02__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+seed_brca2_archetype__var02__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+seed_brca2_archetype__var02__clean,True,,False,,False,clean,[],{},,True,True
+seed_brca2_archetype__var02__clean,False,,False,,,clean,,,,False,True
+gen_easy_normal_000__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_normal_000__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_normal_000__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_normal_000__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_normal_000__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_normal_000__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_normal_000__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_normal_000__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_normal_000__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_normal_000__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_normal_000__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_normal_000__clean,False,,False,,,clean,,,,False,True
+gen_easy_normal_001__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_normal_001__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_normal_001__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_normal_001__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_normal_001__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_normal_001__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_normal_001__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_normal_001__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_normal_001__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_normal_001__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_normal_001__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_normal_001__clean,False,,False,,,clean,,,,False,True
+gen_easy_medium_002__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_medium_002__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_medium_002__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_medium_002__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_medium_002__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_medium_002__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_medium_002__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_medium_002__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_medium_002__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_medium_002__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_medium_002__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_medium_002__clean,False,,False,,,clean,,,,False,True
+gen_easy_medium_003__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_medium_003__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_medium_003__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_medium_003__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_medium_003__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_medium_003__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_medium_003__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_medium_003__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_medium_003__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_medium_003__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_medium_003__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_medium_003__clean,False,,False,,,clean,,,,False,True
+gen_easy_extreme_004__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_extreme_004__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_extreme_004__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_extreme_004__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_extreme_004__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_extreme_004__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_extreme_004__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_extreme_004__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_extreme_004__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_extreme_004__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_extreme_004__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_extreme_004__clean,False,,False,,,clean,,,,False,True
+gen_easy_extreme_005__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_extreme_005__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_easy_extreme_005__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_easy_extreme_005__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_easy_extreme_005__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_easy_extreme_005__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_easy_extreme_005__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_easy_extreme_005__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_easy_extreme_005__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_easy_extreme_005__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_easy_extreme_005__clean,True,,False,,False,clean,[],{},,True,True
+gen_easy_extreme_005__clean,False,,False,,,clean,,,,False,True
+gen_moderate_normal_006__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_normal_006__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_normal_006__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_normal_006__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_normal_006__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_normal_006__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_normal_006__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_normal_006__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_normal_006__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_normal_006__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_normal_006__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_normal_006__clean,False,,False,,,clean,,,,False,True
+gen_moderate_normal_007__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_normal_007__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_normal_007__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_normal_007__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_normal_007__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_normal_007__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_normal_007__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_normal_007__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_normal_007__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_normal_007__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_normal_007__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_normal_007__clean,False,,False,,,clean,,,,False,True
+gen_moderate_medium_008__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_medium_008__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_medium_008__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_medium_008__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_medium_008__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_medium_008__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_medium_008__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_medium_008__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_medium_008__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_medium_008__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_medium_008__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_medium_008__clean,False,,False,,,clean,,,,False,True
+gen_moderate_medium_009__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_medium_009__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_medium_009__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_medium_009__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_medium_009__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_medium_009__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_medium_009__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_medium_009__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_medium_009__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_medium_009__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_medium_009__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_medium_009__clean,False,,False,,,clean,,,,False,True
+gen_moderate_extreme_010__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_extreme_010__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_extreme_010__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_extreme_010__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_extreme_010__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_extreme_010__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_extreme_010__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_extreme_010__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_extreme_010__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_extreme_010__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_extreme_010__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_extreme_010__clean,False,,False,,,clean,,,,False,True
+gen_moderate_extreme_011__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_extreme_011__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_moderate_extreme_011__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_moderate_extreme_011__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_moderate_extreme_011__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_moderate_extreme_011__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_moderate_extreme_011__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_moderate_extreme_011__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_moderate_extreme_011__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_moderate_extreme_011__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_moderate_extreme_011__clean,True,,False,,False,clean,[],{},,True,True
+gen_moderate_extreme_011__clean,False,,False,,,clean,,,,False,True
+gen_hard_normal_012__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_normal_012__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_normal_012__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_normal_012__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_normal_012__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_normal_012__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_normal_012__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_normal_012__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_normal_012__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_normal_012__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_normal_012__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_normal_012__clean,False,,False,,,clean,,,,False,True
+gen_hard_normal_013__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_normal_013__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_normal_013__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_normal_013__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_normal_013__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_normal_013__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_normal_013__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_normal_013__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_normal_013__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_normal_013__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_normal_013__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_normal_013__clean,False,,False,,,clean,,,,False,True
+gen_hard_medium_014__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_medium_014__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_medium_014__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_medium_014__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_medium_014__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_medium_014__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_medium_014__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_medium_014__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_medium_014__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_medium_014__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_medium_014__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_medium_014__clean,False,,False,,,clean,,,,False,True
+gen_hard_medium_015__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_medium_015__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_medium_015__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_medium_015__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_medium_015__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_medium_015__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_medium_015__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_medium_015__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_medium_015__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_medium_015__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_medium_015__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_medium_015__clean,False,,False,,,clean,,,,False,True
+gen_hard_extreme_016__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_extreme_016__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_extreme_016__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,"['first_live_birth_age', 'first_live_birth_age']",{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_extreme_016__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_extreme_016__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_extreme_016__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_extreme_016__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_extreme_016__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_extreme_016__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_extreme_016__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_extreme_016__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_extreme_016__clean,False,,False,,,clean,,,,False,True
+gen_hard_extreme_017__implausible_height,True,height_cm,True,soft,,implausible_value,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_extreme_017__implausible_height,False,height_cm,True,soft,,implausible_value,,,,False,True
+gen_hard_extreme_017__impossible_timeline,True,first_live_birth_age,True,hard,,impossible_timeline,['first_live_birth_age'],{'first_live_birth_age': 'hard'},True,True,False
+gen_hard_extreme_017__impossible_timeline,False,first_live_birth_age,True,hard,,impossible_timeline,,,,False,True
+gen_hard_extreme_017__unit_mixup_height,True,height_cm,True,soft,,unit_mixup,"['height_cm', 'height_cm']",{'height_cm': 'soft'},True,True,True
+gen_hard_extreme_017__unit_mixup_height,False,height_cm,True,soft,,unit_mixup,,,,False,True
+gen_hard_extreme_017__menopause_before_menarche,True,menopause_age,True,hard,,impossible_ordering,"['menopause_age', 'menopause_age']",{'menopause_age': 'hard'},True,True,False
+gen_hard_extreme_017__menopause_before_menarche,False,menopause_age,True,hard,,impossible_ordering,,,,False,True
+gen_hard_extreme_017__missing_yob,True,dob,True,soft,,silent_degradation,['dob'],{'dob': 'soft'},True,True,True
+gen_hard_extreme_017__missing_yob,False,dob,True,soft,,silent_degradation,,,,False,True
+gen_hard_extreme_017__clean,True,,False,,False,clean,[],{},,True,True
+gen_hard_extreme_017__clean,False,,False,,,clean,,,,False,True

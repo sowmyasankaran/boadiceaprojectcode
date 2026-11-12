@@ -1,0 +1,102 @@
+{
+  "seed_brca1_young_breast__var00__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_brca1_young_breast__var01__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_brca1_young_breast__var02__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_hboc_ovarian_sibship__var00__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_hboc_ovarian_sibship__var01__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_hboc_ovarian_sibship__var02__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": null,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": null,
+    "nice_categories_seen": null
+  },
+  "seed_brca2_archetype__var00__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": 45.6,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": 1.0,
+    "nice_categories_seen": [
+      "high",
+      "high",
+      "high",
+      "high",
+      "high"
+    ]
+  },
+  "seed_brca2_archetype__var01__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": 44.5,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": 1.0,
+    "nice_categories_seen": [
+      "high",
+      "high",
+      "high",
+      "high",
+      "high"
+    ]
+  },
+  "seed_brca2_archetype__var02__default (openai/gpt-4o)": {
+    "n_repeats": 5,
+    "sd_lifetime_risk": 0.0,
+    "mean_lifetime_risk": 45.3,
+    "mean_field_concordance": 1.0,
+    "repeat_to_repeat_field_agreement": 1.0,
+    "nice_category_consistency": 1.0,
+    "nice_categories_seen": [
+      "high",
+      "high",
+      "high",
+      "high",
+      "high"
+    ]
+  },
+  "_overall_icc_lifetime_risk": 1.0
+}

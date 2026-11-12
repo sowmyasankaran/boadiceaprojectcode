@@ -1,0 +1,191 @@
+{
+  "seed_brca1_young_breast__var00": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_brca1_young_breast__var01": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_brca1_young_breast__var02": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_hboc_ovarian_sibship__var00": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_hboc_ovarian_sibship__var01": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_hboc_ovarian_sibship__var02": {
+    "pct_20_80": null,
+    "category_20_80": null,
+    "pct_40_50": null,
+    "category_40_50": null,
+    "nice_category": null
+  },
+  "seed_brca2_archetype__var00": {
+    "pct_20_80": 45.5,
+    "category_20_80": "high",
+    "pct_40_50": 12.6,
+    "category_40_50": "high",
+    "nice_category": "high"
+  },
+  "seed_brca2_archetype__var01": {
+    "pct_20_80": 45.1,
+    "category_20_80": "high",
+    "pct_40_50": 12.4,
+    "category_40_50": "high",
+    "nice_category": "high"
+  },
+  "seed_brca2_archetype__var02": {
+    "pct_20_80": 45.3,
+    "category_20_80": "high",
+    "pct_40_50": 12.5,
+    "category_40_50": "high",
+    "nice_category": "high"
+  },
+  "gen_easy_normal_000": {
+    "pct_20_80": 10.6,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.6,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_easy_normal_001": {
+    "pct_20_80": 13.8,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.4,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_easy_medium_002": {
+    "pct_20_80": 14.4,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.0,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_easy_medium_003": {
+    "pct_20_80": 14.9,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.1,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_easy_extreme_004": {
+    "pct_20_80": 27.3,
+    "category_20_80": "moderate",
+    "pct_40_50": 4.4,
+    "category_40_50": "moderate",
+    "nice_category": "moderate"
+  },
+  "gen_easy_extreme_005": {
+    "pct_20_80": 18.8,
+    "category_20_80": "moderate",
+    "pct_40_50": 4.3,
+    "category_40_50": "moderate",
+    "nice_category": "moderate"
+  },
+  "gen_moderate_normal_006": {
+    "pct_20_80": 10.3,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.5,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_moderate_normal_007": {
+    "pct_20_80": 11.4,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.7,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_moderate_medium_008": {
+    "pct_20_80": 14.9,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.1,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_moderate_medium_009": {
+    "pct_20_80": 11.2,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.6,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_moderate_extreme_010": {
+    "pct_20_80": 17.1,
+    "category_20_80": "moderate",
+    "pct_40_50": 4.1,
+    "category_40_50": "moderate",
+    "nice_category": "moderate"
+  },
+  "gen_moderate_extreme_011": {
+    "pct_20_80": 24.3,
+    "category_20_80": "moderate",
+    "pct_40_50": 3.6,
+    "category_40_50": "moderate",
+    "nice_category": "moderate"
+  },
+  "gen_hard_normal_012": {
+    "pct_20_80": 11.5,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.9,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_hard_normal_013": {
+    "pct_20_80": 11.0,
+    "category_20_80": "near_population",
+    "pct_40_50": 1.7,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_hard_medium_014": {
+    "pct_20_80": 15.4,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.6,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_hard_medium_015": {
+    "pct_20_80": 14.6,
+    "category_20_80": "near_population",
+    "pct_40_50": 2.1,
+    "category_40_50": "near_population",
+    "nice_category": "near_population"
+  },
+  "gen_hard_extreme_016": {
+    "pct_20_80": 18.5,
+    "category_20_80": "moderate",
+    "pct_40_50": 2.6,
+    "category_40_50": "near_population",
+    "nice_category": "moderate"
+  },
+  "gen_hard_extreme_017": {
+    "pct_20_80": 17.3,
+    "category_20_80": "moderate",
+    "pct_40_50": 2.5,
+    "category_40_50": "near_population",
+    "nice_category": "moderate"
+  }
+}

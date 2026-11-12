@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_moderate_normal_006",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 254.1,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool alternative access methods\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+alternative+access+methods blocked by security policy; Failed to search duckduckgo for \"alternative breast ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative online breast ovarian cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+online+breast+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search google for \"alternative online breast ovarian cancer risk assessment tools\": Navigation to https://www.google.com/search?q=alternative+online+breast+ovarian+cancer+risk+assessment+tools&udm=14 blocked by security policy; Navigation failed: Navigation to https://www.cancer.org/healthy/find-cancer-early/cancer-risk-assessment.html blocked by security policy; Navigation failed: Navigation to https://www.cancer.gov/about-cancer/causes-prevention/genetics/risk-assessment-pdq blocked by security policy; Navigation failed: Navigation to https://www.mayoclinic.org/diseases-conditions/cancer/in-depth/cancer-risk-assessment/art-20046564 blocked by security policy; Navigation failed: Navigation to https://www.nhs.uk/conditions/cancer/cancer-risk-assessment/ blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to access the CanRisk tool due to registration issues with existing email and username. Attempts to search for alternative access methods were blocked by security policies. Navigation to known medical websites also failed due to security policy blocks."
+  },
+  "attempts_used": 2
+}

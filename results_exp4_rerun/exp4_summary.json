@@ -1,0 +1,47 @@
+{
+  "structured": {
+    "n": 27,
+    "all_fields_correct_rate": 1.0,
+    "mean_per_field_accuracy": 1.0,
+    "vs_baseline_mean_field_accuracy_pp": 0.0,
+    "vs_baseline_all_correct_rate_pp": 0.0
+  },
+  "agent_a": {
+    "n": 27,
+    "all_fields_correct_rate": 0.9629629629629629,
+    "mean_per_field_accuracy": 0.998220640569395,
+    "vs_baseline_mean_field_accuracy_pp": -0.18,
+    "vs_baseline_all_correct_rate_pp": -3.7
+  },
+  "agent_b": {
+    "n": 27,
+    "all_fields_correct_rate": 1.0,
+    "mean_per_field_accuracy": 1.0,
+    "vs_baseline_mean_field_accuracy_pp": 0.0,
+    "vs_baseline_all_correct_rate_pp": 0.0
+  },
+  "agent_c": {
+    "n": 27,
+    "all_fields_correct_rate": 0.9629629629629629,
+    "mean_per_field_accuracy": 0.997979797979798,
+    "accuracy__truthful": 0.9966329966329966,
+    "accuracy__wrong_then_corrected": 1.0,
+    "accuracy__multi_fact": 1.0,
+    "accuracy__ambiguous": 1.0,
+    "mean_correction_rate": 1.0,
+    "correction_provenance": {
+      "gather": 88,
+      "verify": 9,
+      "teach_back": 5,
+      "never": 0
+    },
+    "mean_ambiguous_flag_rate": 0.39866666666666667,
+    "mean_ambiguous_silent_guess_correct_rate": 1.0,
+    "vs_baseline_mean_field_accuracy_pp": -0.2,
+    "vs_baseline_all_correct_rate_pp": -3.7,
+    "vs_baseline_pp__truthful": -0.34,
+    "vs_baseline_pp__wrong_then_corrected": 0.0,
+    "vs_baseline_pp__multi_fact": 0.0,
+    "vs_baseline_pp__ambiguous": 0.0
+  }
+}

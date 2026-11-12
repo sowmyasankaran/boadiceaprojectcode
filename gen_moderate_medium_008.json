@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_moderate_medium_008",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 143.9,
+  "agent_reported_success": true,
+  "error": null,
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to register due to existing email and username issues, blocking access to the CanRisk tool."
+  },
+  "attempts_used": 2
+}

@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_hard_medium_014",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 467.7,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk registration cookie preferences issue\": Navigation to https://duckduckgo.com/?q=CanRisk+registration+cookie+preferences+issue blocked by security policy; Failed to search bing for \"CanRisk registration cookie preferences issue\": Navigation to https://www.bing.com/search?q=CanRisk+registration+cookie+preferences+issue blocked by security policy; Failed to search google for \"CanRisk registration cookie preferences issue\": Navigation to https://www.google.com/search?q=CanRisk+registration+cookie+preferences+issue&udm=14 blocked by security policy; Failed to search duckduckgo for \"CanRisk registration cookie preferences issue\": Navigation to https://duckduckgo.com/?q=CanRisk+registration+cookie+preferences+issue blocked by security policy; Failed to search duckduckgo for \"alternative tools for breast and ovarian cancer risk assessment\": Navigation to https://duckduckgo.com/?q=alternative+tools+for+breast+and+ovarian+cancer+risk+assessment blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to complete registration on CanRisk due to persistent cookie preferences modal blocking form submission. Alternative search attempts were blocked by security policy."
+  },
+  "attempts_used": 2
+}

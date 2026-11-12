@@ -1,0 +1,4368 @@
+[
+  {
+    "case_id": "seed_brca1_young_breast__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var00__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var01__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca1_young_breast__var02__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var00__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var01__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_hboc_ovarian_sibship__var02__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var00__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var01__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "seed_brca2_archetype__var02__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_normal_000__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_normal_000__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_000__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_normal_001__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_normal_001__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_normal_001__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_medium_002__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_medium_002__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_002__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_medium_003__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_medium_003__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_medium_003__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_extreme_004__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_extreme_004__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_004__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_extreme_005__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_easy_extreme_005__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_easy_extreme_005__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_normal_006__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_normal_006__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_006__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_normal_007__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_normal_007__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_normal_007__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_medium_008__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_medium_008__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_008__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_medium_009__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_medium_009__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_medium_009__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_010__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_moderate_extreme_011__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_normal_012__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_normal_012__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_012__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_normal_013__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_normal_013__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_normal_013__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_medium_014__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_medium_014__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_014__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_medium_015__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_medium_015__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_medium_015__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age",
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_extreme_016__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_extreme_016__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_016__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__implausible_height",
+    "kind": "implausible_value",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "first_live_birth_age"
+    ],
+    "raised_severities": {
+      "first_live_birth_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_extreme_017__impossible_timeline",
+    "kind": "impossible_timeline",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "first_live_birth_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "height_cm",
+      "height_cm"
+    ],
+    "raised_severities": {
+      "height_cm": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__unit_mixup_height",
+    "kind": "unit_mixup",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "height_cm",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "raised_fields": [
+      "menopause_age",
+      "menopause_age"
+    ],
+    "raised_severities": {
+      "menopause_age": "hard"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": false
+  },
+  {
+    "case_id": "gen_hard_extreme_017__menopause_before_menarche",
+    "kind": "impossible_ordering",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "menopause_age",
+    "expected_severity": "hard",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": true,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "raised_fields": [
+      "dob"
+    ],
+    "raised_severities": {
+      "dob": "soft"
+    },
+    "caught": true,
+    "severity_matched": true,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__missing_yob",
+    "kind": "silent_degradation",
+    "with_verification": false,
+    "expected_flag": true,
+    "expected_field": "dob",
+    "expected_severity": "soft",
+    "caught": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__clean",
+    "kind": "clean",
+    "with_verification": true,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "raised_fields": [],
+    "raised_severities": {},
+    "caught": true,
+    "false_positive": false,
+    "would_submit": true
+  },
+  {
+    "case_id": "gen_hard_extreme_017__clean",
+    "kind": "clean",
+    "with_verification": false,
+    "expected_flag": false,
+    "expected_field": null,
+    "expected_severity": null,
+    "caught": false,
+    "would_submit": true
+  }
+]

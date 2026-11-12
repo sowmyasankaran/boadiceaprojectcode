@@ -1,0 +1,19 @@
+{
+  "vignette_id": "seed_brca2_archetype__var02",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 561.5,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk alternative online risk assessment tools\": Navigation to https://duckduckgo.com/?q=CanRisk+alternative+online+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative online cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search google for \"alternative online cancer risk assessment tools\": Navigation to https://www.google.com/search?q=alternative+online+cancer+risk+assessment+tools&udm=14 blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative online cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative online cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative online cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative online cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+online+cancer+risk+assessment+tools blocked by security policy; Navigation failed: Navigation to https://www.cancerresearchuk.org/about-cancer/causes-of-cancer/cancer-risk blocked by security policy; Navigation failed: Navigation to https://www.cancerresearchuk.org/about-cancer/causes-of-cancer/cancer-risk blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to complete registration on CanRisk due to email activation requirement. Attempts to find alternative online tools were blocked by security policies. Current page is not loading properly."
+  },
+  "attempts_used": 2
+}

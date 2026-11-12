@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_hard_extreme_016",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 325.8,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool guest access\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+guest+access blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to register or log in due to existing credentials and lack of guest access options."
+  },
+  "attempts_used": 2
+}

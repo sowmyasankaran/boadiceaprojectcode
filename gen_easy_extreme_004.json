@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_easy_extreme_004",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 531.0,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Failed multiple registration and login attempts due to existing email addresses and invalid credentials. Attempts to search for alternative access methods were blocked by security policies."
+  },
+  "attempts_used": 2
+}

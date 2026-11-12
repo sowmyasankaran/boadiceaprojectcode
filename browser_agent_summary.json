@@ -1,0 +1,15 @@
+{
+  "n": 27,
+  "completion_rate": 0.0,
+  "success_rate_self_reported": 1.0,
+  "bland_altman_breast_lifetime": {
+    "mean_diff": null,
+    "sd_diff": null,
+    "loa_lower": null,
+    "loa_upper": null
+  },
+  "nice_category_match_rate": null,
+  "n_scored_output": 0,
+  "n_scored_category": 0,
+  "field_level_concordance": null
+}

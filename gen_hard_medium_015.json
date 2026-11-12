@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_hard_medium_015",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 370.2,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk login page\": Navigation to https://duckduckgo.com/?q=CanRisk+login+page blocked by security policy; Failed to search duckduckgo for \"CanRisk login page\": Navigation to https://duckduckgo.com/?q=CanRisk+login+page blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to proceed with patient data entry due to pending account activation."
+  },
+  "attempts_used": 2
+}

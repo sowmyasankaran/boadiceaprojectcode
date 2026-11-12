@@ -1,0 +1,19 @@
+{
+  "vignette_id": "gen_hard_normal_012",
+  "attempt": 2,
+  "provider": "openrouter",
+  "model": "openai/gpt-4o",
+  "input_mode": "structured",
+  "elapsed_sec": 437.0,
+  "agent_reported_success": true,
+  "error": "Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"CanRisk tool access without registration\": Navigation to https://duckduckgo.com/?q=CanRisk+tool+access+without+registration blocked by security policy; Failed to search duckduckgo for \"alternative breast and ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+and+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search duckduckgo for \"alternative breast and ovarian cancer risk assessment tools\": Navigation to https://duckduckgo.com/?q=alternative+breast+and+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative breast and ovarian cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+breast+and+ovarian+cancer+risk+assessment+tools blocked by security policy; Failed to search bing for \"alternative breast and ovarian cancer risk assessment tools\": Navigation to https://www.bing.com/search?q=alternative+breast+and+ovarian+cancer+risk+assessment+tools blocked by security policy",
+  "result": {
+    "completed": false,
+    "breast_lifetime_risk_pct": null,
+    "ovarian_lifetime_risk_pct": null,
+    "risk_category": null,
+    "entered_fields": [],
+    "notes": "Unable to register on CanRisk due to existing email address errors and page loading issues. Attempts to find alternative tools were blocked by security policies."
+  },
+  "attempts_used": 2
+}
